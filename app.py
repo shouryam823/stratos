@@ -2,7 +2,7 @@
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from stratos import StratosBrain
+from stratos_phi import StratosBrain  # ✅ Fixed this line
 
 app = Flask(__name__)
 CORS(app)
