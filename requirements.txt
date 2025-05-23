@@ -1,32 +1,6 @@
-# Core chatbot and server
 flask
-flask-cors
-
-# NLP and transformers
+flask_cors
 transformers
 torch
-sentence-transformers
-nltk
-spacy
-
-# Text vectorization and embedding retrieval
-scikit-learn
-faiss-cpu
-
-# Data parsing and file handling
-python-dotenv
-PyMuPDF  # For reading PDFs
-pdfminer.six
-
-# Emotion & Sentiment Analysis
 textblob
-vaderSentiment
-
-# Utilities
-numpy
-pandas
-tqdm
-
-# For training and logging
-matplotlib
-seaborn
+scikit-learn
